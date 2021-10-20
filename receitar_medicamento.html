@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAM - Sistema de Atendimento Medico</title>
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./assets/icon.png">
+</head>
+
+<body>
+    <div class="content ">
+        <div class="nav ">
+            <div class="nav-logo ">
+                <a href="index.html"><img src="assets/icon.png" />
+                    <p>SAM - Sistema de Atendimento Médico</p>
+                </a>
+            </div>
+            <li class="nav-home "><a href="index.html">Home</a></li>
+            <li class="nav-contact "><a href="# ">Sobre</a></li>
+            <li class="nav-s-in "><a href="# ">Login | Cadastre-se<i class="fas fa-user "></i></a></li>
+        </div>
+    </div>
+    <section class="principal">
+        <div class="consulta posts">
+            <main class="container">
+                <h2 class="log">Receitar Medicamento</h2>
+                <form id="formulario" action="">
+                    <div class="input-field">
+                        <p style="color: #000; margin-bottom: 6px; font-weight: bold;">Nome ou Código do Paciente</p>
+                        <input type="text" name="nome" id="nome" placeholder="Nome">
+                        <div class="underline"></div>
+                    </div>
+                    <div class="input-field">
+
+                        <input type="text" name="nome" id="nome" placeholder="000.000.000-00">
+                        <div class="underline"></div>
+                    </div>
+
+                    <input type="submit" onclick="return logar()" id="btn-submit" value="Regitrar Consulta">
+                    <input type="submit" onclick="return logar()" id="btn-submit" value="Tratar Prontuário Médico">
+                </form>
+            </main>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>
+                Copyright &copy; 2021 - Todos direitos reservados
+            </p>
+            <div class="social-list">
+                <ul>
+                    <li><a href="https://api.whatsapp.com/send?phone=5564999999999&text=Greetings!" target="_blank"><span class="fab fa-whatsapp"></span></a></li>
+                    <li><a href="https://mail.google.com/mail/u/0/?fs=1&to=someone@example.com&su=Suporte&body=Preciso+de+ajuda+com...&bcc=someone.else@example.com&tf=cm" target="_blank"><span class="fab fa-google" ></span></a></li>
+                    <li><a href="tel:123-456-7890"><span class="fas fa-phone"></span></a></li>
+                    <li>
+                        <a href="https://github.com/Altair8800-ceub" target="_blank"><img src="./assets/altair.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

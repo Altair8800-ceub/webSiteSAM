@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+html {
+    height: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+i {
+    padding: 15px;
+}
+
+a:hover {
+    color: #292c2c;
+}
+
+body {
+    color: white;
+}
+
+.content {
+    display: grid;
+    grid-template: repeat(1, 1fr) / 1fr 2fr;
+    grid-row-gap: 1.3rem;
+}
+
+.nav {
+    align-items: center;
+    background-color: #00c6b8;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    padding: 10px 20px;
+    color: white;
+    text-align: left;
+}
+
+.nav-logo {
+    grid-column: 1 / 4;
+    /*font-size: 2rem;*/
+    text-align: center;
+}
+
+.nav-logo img {
+    height: 50px;
+    width: 70px;
+}
+
+.nav-home {
+    grid-column: 4 / 5;
+}
+
+.nav-receitar {
+    grid-column: 5 / 7;
+}
+
+.nav-s-up {
+    grid-column: 9 / 11;
+}
+
+.nav-s-in {
+    grid-column: 11 / -1;
+}
+
+
+/*NAVBAR LATERAL*/
+
+.nav-lateral {
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    font-family: Poppins;
+}
+
+.nav-lateral h2 {
+    margin-left: 5rem;
+    margin-bottom: 25px;
+    font-size: 35px;
+    color: #000;
+}
+
+.nav-lateral ul {
+    margin-left: 45px;
+}
+
+.nav-lateral ul li {
+    margin-top: 12px;
+}
+
+.nav-lateral a:hover {
+    text-decoration: underline;
+    transition: 2s;
+}
+
+.nav-lateral ul a {
+    padding: 0.5rem;
+    font-size: 17px;
+    color: #000;
+}
